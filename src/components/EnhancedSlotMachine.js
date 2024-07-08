@@ -23,7 +23,6 @@ const PAYLINES = [
   [0,1,2,1,0], // V shape
   [2,1,0,1,2], // Inverted V
 ];
-
 const EnhancedSlotMachine = () => {
   const [reels, setReels] = useState(Array(5).fill().map(() => Array(3).fill(SYMBOLS[0])));
   const [spinning, setSpinning] = useState(false);
