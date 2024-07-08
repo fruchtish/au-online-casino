@@ -3,7 +3,7 @@ import EnhancedSlotMachine from './EnhancedSlotMachine';
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-900 to-blue-900 text-white">
+    <div className="min-h-screen text-white background">
       <header className="p-5 bg-black bg-opacity-50">
         <h1 className="text-3xl font-bold">AU Online Casino</h1>
       </header>
